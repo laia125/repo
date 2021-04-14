@@ -27,9 +27,7 @@ public class Vacuna {
 		this.efectivitat = v.efectivitat;
 		this.durada = v.durada;
 	}
-	
 
-	
 	
 	public String getNom() {
 		return nom;
