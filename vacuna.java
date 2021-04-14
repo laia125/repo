@@ -20,6 +20,7 @@ public class Vacuna {
 		     this.durada = 0;
 		 }
 
+
 	//El constructor copiador
 	Vacuna(Vacuna v){
 		this.nom = v.nom;
@@ -27,6 +28,33 @@ public class Vacuna {
 		this.durada = v.durada;
 	}
 	
+
+	
+	
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public float getEfectivitat() {
+		return efectivitat;
+	}
+
+	public void setEfectivitat(float efectivitat) {
+		this.efectivitat = efectivitat;
+	}
+
+	public int getDurada() {
+		return durada;
+	}
+
+	public void setDurada(int durada) {
+		this.durada = durada;
+	}
+
 	//equals
 	@Override
 		public boolean equals(Vacuna v) {
