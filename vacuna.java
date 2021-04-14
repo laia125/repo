@@ -74,6 +74,10 @@ public class Vacuna {
 		return "Vacuna [nom=" + nom + ", efectivitat=" + efectivitat + ", durada=" + durada + "]";
 	}
 
-	
+	public static void main (String[]args) {
+		
+		Vacuna v1 = new Vacuna();
+		
+	}
 	
 }
